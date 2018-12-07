@@ -1,0 +1,262 @@
+:root {
+  --color-one: #e5ab47;
+  --color-one-rgb: 229, 171, 71;
+  --color-text: #573d1c;
+  --color-background: rgb(255, 253, 249);
+  --color-background-rgb: 255, 253, 249;
+  --font-text: AnonymousPro-Bold; }
+
+body,
+html {
+  font-family: Anonymous Pro;
+  color: var(--color-text);
+  background-color: #f2f2f2;
+  height: 100%; }
+
+body {
+  overflow-y: scroll; }
+
+button {
+  cursor: pointer; }
+  button:disabled {
+    cursor: default; }
+
+*:focus {
+  outline: none; }
+
+#app {
+  min-height: 100%; }
+
+.src-BeerRatingApp-__BeerRatingApp___BeerRatingApp {
+  background-color: var(--color-background);
+  max-width: 1024px;
+  margin: 0 auto;
+  height: 100%; }
+
+.src-BeerRatingApp-__BeerRatingApp___Main {
+  padding-left: 5rem;
+  padding-right: 5rem; }
+
+.src-BeerRatingApp-__Header___UpperHeader {
+  height: 64px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 1rem; }
+
+.src-BeerRatingApp-__Header___MainHeader {
+  height: 8rem;
+  background-color: rgba(0, 0, 0, 0.15);
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: 4px solid var(--color-one);
+  border-bottom: 4px solid var(--color-one); }
+  .src-BeerRatingApp-__Header___MainHeader h1 {
+    font-size: 4rem;
+    font-weight: normal;
+    color: var(--color-one);
+    letter-spacing: 3.7px;
+    font-family: Anton;
+    text-transform: uppercase;
+    line-height: 1;
+    cursor: pointer; }
+    .src-BeerRatingApp-__Header___MainHeader h1:hover {
+      text-decoration: underline; }
+
+.src-BeerPage-__Beer___Beer {
+  padding-top: 2rem; }
+
+.src-BeerPage-__Beer___Img {
+  margin-right: 3rem; }
+  .src-BeerPage-__Beer___Img img {
+    max-width: 18rem;
+    border: 1px solid var(--color-text); }
+
+.src-BeerPage-__Beer___Description {
+  display: flex; }
+  .src-BeerPage-__Beer___Description h1 {
+    font-family: Anton;
+    line-height: 1;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-transform: lowercase;
+    margin-bottom: 1.5rem; }
+
+.src-BeerPage-__Beer___DescriptionTitle {
+  display: flex;
+  border-bottom: 4px solid var(--color-one);
+  margin-bottom: 2rem; }
+  .src-BeerPage-__Beer___DescriptionTitle h1 {
+    color: var(--color-one);
+    letter-spacing: 4.6px;
+    line-height: 1;
+    font-size: 2rem;
+    font-family: Anton;
+    font-weight: normal; }
+  .src-BeerPage-__Beer___DescriptionTitle h3 {
+    align-self: flex-end;
+    font-family: Anton;
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-left: 1rem; }
+
+.src-BeerPage-__Beer___Shops {
+  margin-bottom: 1.5rem; }
+
+.src-BeerPage-__Beer___Rating {
+  text-transform: lowercase;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem; }
+  .src-BeerPage-__Beer___Rating .src-BeerPage-__Beer___Author {
+    font-weight: bold; }
+  .src-BeerPage-__Beer___Rating .src-BeerPage-__Beer___Comment {
+    font-style: italic; }
+
+.src-BeerPage-__Beer___Shop {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer; }
+  .src-BeerPage-__Beer___Shop:hover {
+    text-decoration: underline; }
+
+.src-BeerPage-__Form___Form {
+  font-size: 1.5rem; }
+  .src-BeerPage-__Form___Form .src-BeerPage-__Form___Hint {
+    margin-bottom: 1.5rem;
+    font-weight: bold; }
+  .src-BeerPage-__Form___Form fieldset div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    justify-content: flex-end; }
+  .src-BeerPage-__Form___Form label {
+    order: 1;
+    width: 8em;
+    padding-right: 0.5em; }
+  .src-BeerPage-__Form___Form input {
+    order: 2;
+    flex: 1 1 auto; }
+
+.src-components-__Stars___Stars {
+  display: inline-block;
+  unicode-bidi: bidi-override; }
+  .src-components-__Stars___Stars span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+    font-size: 75%; }
+  .src-components-__Stars___Stars .src-components-__Stars___filled:before {
+    content: "\2605";
+    position: absolute; }
+
+.src-BeerRatingApp-__Footer___Footer {
+  margin-top: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-top: 4px solid var(--color-one);
+  background-color: rgba(0, 0, 0, 0.15);
+  text-align: center; }
+  .src-BeerRatingApp-__Footer___Footer a {
+    font-weight: normal;
+    font-size: 1rem;
+    margin-top: 1rem;
+    line-height: 1;
+    color: var(--color-text); }
+
+.src-OverviewPage-__OverviewPage___BeerOverview {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: center; }
+
+.src-OverviewPage-__OverviewPage___BeerImage {
+  margin: 0.5rem;
+  cursor: pointer;
+  width: 256px;
+  height: 256px; }
+  .src-OverviewPage-__OverviewPage___BeerImage img {
+    position: absolute;
+    border: 3px solid var(--color-background); }
+    .src-OverviewPage-__OverviewPage___BeerImage img:hover {
+      border: 3px solid var(--color-one); }
+
+.src-OverviewPage-__OverviewPage___Label {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  margin-left: 3px;
+  margin-right: -3px;
+  margin-top: 200px;
+  height: 50px;
+  padding-top: 15px;
+  padding-bottom: 10px; }
+  .src-OverviewPage-__OverviewPage___Label h1 {
+    margin: 0;
+    font-family: Anton;
+    font-size: 1rem;
+    color: var(--color-one);
+    letter-spacing: 4.6px;
+    font-weight: normal;
+    line-height: 1; }
+
+.src-ShopPage-__ShopPage___ShopPage {
+  padding-top: 2rem; }
+
+.src-ShopPage-__ShopPage___DescriptionTitle {
+  display: flex;
+  border-bottom: 4px solid var(--color-one);
+  margin-bottom: 2rem; }
+  .src-ShopPage-__ShopPage___DescriptionTitle h1 {
+    color: var(--color-one);
+    letter-spacing: 4.6px;
+    line-height: 1;
+    font-size: 2rem;
+    font-family: Anton;
+    font-weight: normal; }
+  .src-ShopPage-__ShopPage___DescriptionTitle h3 {
+    align-self: flex-end;
+    font-family: Anton;
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-left: 1rem; }
+
+.src-ShopPage-__ShopPage___Address {
+  text-transform: lowercase;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem; }
+
+.src-ShopPage-__ShopPage___Title h1 {
+  font-family: Anton;
+  line-height: 1;
+  letter-spacing: 3px;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-transform: lowercase;
+  margin-bottom: 1.5rem; }
+
+.src-ShopPage-__ShopPage___Beers {
+  font-size: 1.5rem; }
+
+.src-ShopPage-__ShopPage___Beer {
+  cursor: pointer; }
+  .src-ShopPage-__ShopPage___Beer:hover {
+    text-decoration: underline; }
+
+
+/*# sourceMappingURL=main.8e11026f543489f16b87.css.map*/

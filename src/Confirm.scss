@@ -1,0 +1,25 @@
+.Confirm {
+	margin-top: 1rem;
+	padding: 1rem;
+
+	background-color: lightpink;
+}
+
+.Confirm > button {
+	background-color: aqua;
+}
+
+.Confirm > .Button {
+	background-color: bisque;
+}
+
+.ConfirmWithGlobalClassName {
+	margin-top: 1rem;
+	padding: 1rem;
+
+	background-color: lightpink;
+}
+.ConfirmWithGlobalClassName > :global(.Button) {
+	background-color: aqua;
+}
+

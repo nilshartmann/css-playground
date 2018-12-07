@@ -1,0 +1,40 @@
+* {
+	font-size: 24px;
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+	font-size: 0.5rem;
+}
+
+button {
+	background-color: lightskyblue;
+}
+
+.AppFrame {
+	margin-bottom: 1rem;
+	padding: 1rem 1rem 2rem 1rem;
+	border-bottom: 5px solid gray;
+	width: 100%;
+}
+
+.warn {
+	background-color: lightcoral;
+}
+
+.confirm {
+	margin-top: 1rem;
+	padding: 1rem;
+	background-color: lightpink;
+}
+
+.confirm .warn {
+	background-color: aqua;
+}

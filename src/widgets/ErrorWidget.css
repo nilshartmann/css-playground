@@ -1,0 +1,5 @@
+.ErrorWidget {
+	border: 3px solid red;
+
+	--color-btn: red;
+}

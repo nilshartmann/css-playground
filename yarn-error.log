@@ -1,0 +1,91 @@
+Arguments: 
+  /Users/nils/.nvm/versions/node/v8.12.0/bin/node /usr/local/Cellar/yarn/1.10.1/libexec/bin/yarn.js
+
+PATH: 
+  /Users/nils/.nvm/versions/node/v8.12.0/bin:/Users/nils/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/nils/bin
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  8.12.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/nils/develop/javascript/timocom/css-playground/package.json: Unexpected token } in JSON at position 1705
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.10.1/libexec/lib/cli.js:1136:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.10.1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.10.1/libexec/lib/cli.js:109:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "name": "apollo-graphql-schema-stitching-frontend",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": {
+      "email": "nils@nilshartmann.net",
+      "name": "Nils Hartmann",
+      "url": "https://nilshartmann.net"
+    },
+    "description": "Apollo GraphQL Schema Stitching Example",
+    "keywords": [
+      "react",
+      "javascript",
+      "typescript",
+      "starter-kit"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/nilshartmann/apollo-graphql-schema-stitching.git"
+    },
+    "scripts": {
+      "start": "yarn devserver",
+      "clean": "rimraf -rf public/dist/",
+      "dist": "webpack",
+      "webpack": "webpack --watch",
+      "devserver": "webpack-dev-server --content-base public/",
+      "prettier": "prettier --print-width 130 --write \"src/**/*.{js,jsx,ts,tsx}\""
+    },
+    "devDependencies": {
+      "@types/webpack-env": "1.13.2",
+      "awesome-typescript-loader": "^5.2.1",
+      "css-loader": "^0.28.11",
+      "file-loader": "^1.1.11",
+      "html-webpack-harddisk-plugin": "^0.2.0",
+      "html-webpack-plugin": "^3.2.0",
+      "mini-css-extract-plugin": "^0.4.0",
+      "node-sass": "^4.7.2",
+      "postcss-loader": "^2.1.5",
+      "prettier": "^1.13.5",
+      "rimraf": "2.6.2",
+      "sass-loader": "^7.0.1",
+      "source-map-loader": "^0.2.3",
+      "style-loader": "^0.21.0",
+      "tslint": "5.8.0",
+      "typescript": "^3.1.1",
+      "webpack": "^4.8.3",
+      "webpack-cli": "^2.1.4",
+      "webpack-dev-server": "^3.1.4",
+      "webpack-stylish": "^0.1.8"
+    },
+    "dependencies": {
+      "@types/cors": "^2.8.4",
+      "@types/graphql": "^0.12.5",
+      "@types/react": "^16.3.13",
+      "@types/react-dom": "^16.0.5",
+      "@types/react-router-dom": "^4.3.1",
+      "@types/react-tooltip": "^3.3.5",
+      "react": "^16.6",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

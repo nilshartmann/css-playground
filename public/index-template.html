@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head lang="de">
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="/styles.css" />
+		<title>CSS React Playground</title>
+	</head>
+
+	<body>
+		<div class="AppFrame">
+			<h1>Static content from index.html</h1>
+			<p>All Styles read from global "styles.css" file</p>
+			<button>Regular Button</button> <button class="warn">Warning Button</button>
+			<div class="confirm"><button class="warn">Confirm Warn Button ('.warn' class overridden by outer div)</button></div>
+		</div>
+
+		<div class="AppFrame">
+			<h1>React App #1 (Without Shadow DOM)</h1>
+			<div id="app_one"></div>
+		</div>
+
+		<div class="AppFrame">
+			<h1>React App #2 (Shadow DOM)</h1>
+			<div id="app_two"></div>
+		</div>
+		<div class="AppFrame">
+			<h1>React App #3 (Shadow DOM with CSS Custom Properties)</h1>
+			<div id="app_three"></div>
+		</div>
+	</body>
+</html>

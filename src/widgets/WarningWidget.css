@@ -1,0 +1,5 @@
+.WarningWidget {
+	border: 3px solid orange;
+
+	--color-btn: orange;
+}
